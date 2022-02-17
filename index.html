@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="note">&ast;operation display on screen not implemented</h1>
+  <div class="calculator">
+    <div class="output-screen">
+      <div class="first-line">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operation class="operation"></div>
+      </div>
+      <div data-current-operand class="current-operand"></div>
+    </div>
+    <button data-all-clear class="btn">AC</button>
+    <button data-delete class="btn span2">DEL</button>
+    <button data-operation class="btn">÷</button>
+    <button data-number class="btn" value="7">7</button>
+    <button data-number class="btn" value="8">8</button>
+    <button data-number class="btn" value="9">9</button>
+    <button data-operation class="btn">x</button>
+    <button data-number class="btn" value="4">4</button>
+    <button data-number class="btn" value="5">5</button>
+    <button data-number class="btn" value="6">6</button>
+    <button data-operation class="btn">-</button>
+    <button data-number class="btn" value="1">1</button>
+    <button data-number class="btn" value="2">2</button>
+    <button data-number class="btn" value="3">3</button>
+    <button data-operation class="btn">+</button>
+    <button data-number class="btn" value="0">0</button>
+    <button data-equals class="btn span2">=</button>
+    <button data-number class="btn">.</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
